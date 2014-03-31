@@ -9,6 +9,15 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+{
+    NSTextView *vista;
+}
+-(void)awakeFromNib
+{
+    NSColor *miBGColor = [NSColor blueColor];
+//    [self.miClip.backgroundColor = miBGColor];
+    _miClip.backgroundColor = miBGColor;
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
